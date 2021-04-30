@@ -1,0 +1,272 @@
+/* Bootstrap css - OFERTAS
+ * Copyright 2019  Nilson Jr
+ */
+
+body {
+    color: #333;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background: #f5f5f5;
+}
+
+h3{
+    color: #fff;
+}
+
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../images/load.gif) 50% 50% no-repeat rgba(10,23,55,0.5);
+}
+
+.header {
+    height: 105px;
+   background: #af2b60;
+}
+
+#header .logo {
+    display: block;
+    float: left;
+}
+
+#telefone {
+    border-radius: 12px;
+    background: #FFF;
+    height: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.garantia2 img {
+    margin: -24px 0 0 20px;
+    float: left;
+}
+
+.garantia2 {
+    font-size: 14px;
+}
+
+.selo_3 {
+    float: right;
+    margin-top: -55px;
+}
+
+
+#telefone hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    width: 700px;
+    margin: 10px auto;
+}
+
+button{
+    cursor:pointer;
+background: none;
+	border: none;
+	margin: 0;
+}
+
+
+#telefone p {
+    font-size: 14pt;
+    display: block;
+    padding: 5px;
+    margin: 0;
+}
+
+.esquerda {
+    float: left;
+}
+
+
+/* PRODUTOS, DADOS E PAGAMENTO*/
+
+#produtos{position:relative;}
+
+.destaque{
+    width:100%;
+    height: 70px;
+    position:absolute;
+    background: url(../images/destaque_maximo.png) no-repeat;
+  
+}
+ .destaque h3{
+     font-size: 26px;    
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 500;
+    padding: 8px 0px 0px 50px;
+    color: #fff;
+}
+
+#produtos h2.info{font-size: 14px;position: relative;top: 8px;padding: 10px 0 10px 266px;}
+#produtos, #dados, #pagamento{height:auto; overflow:hidden; padding-bottom:20px; margin-bottom:20px; border-radius:12px;}
+.fundo_h2{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8e8e8+0,e8e8e8+17,ffffff+17,ffffff+17,ffffff+21,ffffff+25,ffffff+50,ffffff+100 */
+background: #e8e8e8; /* Old browsers */
+background: -moz-linear-gradient(top, #e8e8e8 0%, #e8e8e8 17%, #ffffff 17%, #ffffff 17%, #ffffff 21%, #ffffff 25%, #ffffff 50%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e8e8e8 0%,#e8e8e8 17%,#ffffff 17%,#ffffff 17%,#ffffff 21%,#ffffff 25%,#ffffff 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e8e8e8 0%,#e8e8e8 17%,#ffffff 17%,#ffffff 17%,#ffffff 21%,#ffffff 25%,#ffffff 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */}
+#produtos h2, #pagamento h2{display:block;margin:0 0 20px 0;padding:10px 25px;color:#333;text-shadow:2px 1px 1px #FFF;font-size:18pt;}
+#produtos img{display:block; max-width: 450px; padding-left: 20px;}
+#produtos .preco_promocional{font-size:14pt; color:#74a726;}
+#produtos form input[type="image"]{margin:2px 0;}
+#produtos span.nota_prod{display:block; text-align:center; padding-top:20px; color:#666;}
+
+.link:hover{cursor:pointer; text-decoration:underline;}
+
+div.recomendado{width:100%; font-size:16px; padding-left:30px;}
+div.desconto{background:url(../images/bk_desconto.png) no-repeat; width:95px; height:103px; position:absolute; right:20px; top:49px; text-align:center; z-index:2; color:#FFF; text-transform:uppercase; font-weight:bold; padding-top:15px;}
+div.desconto strong{font-size:30px;}
+div.cont_direita{float:right;width:400px;position: relative;top: 12px;}
+div.cont_left{float:left; overflow:hidden; width:500px;}
+p.preco_detaque{
+    font-size: 44px;
+    color: #000;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 500;
+    padding:20px 0 0 15px;
+    margin:0;
+}
+p.preco_detaque span{
+    color: #0e9716
+}
+
+#produtos h4 {
+	font-size: 16px;
+	/* color: rgb(124, 21, 77); */
+	font-weight: 400;
+	/* font-style: italic; */
+	position: relative;
+	width: 180px;
+	margin: 0;
+	/* padding-left: 18px; */
+	background-color: #f5f5f5;
+	text-align: center;
+	left: 16px;
+	top: -4px;
+}
+
+p.preco_detaque strong{color:#0e9716;/* font-size:60px; */}
+p.preco_bottom{font-style:italic; padding-left:50px; color:#666;}
+p.preco_bottom span{text-decoration:line-through;}
+
+.offermob{
+		display: none;
+	}
+
+.lobibox-notify-success {
+    border-color: #24a370;
+    background-color: #000;
+    color: #FFF;
+}
+
+/*footer*/
+footer {
+	padding: 60px;
+	height: 380px;
+	background:#D3D3D3;
+}
+
+p.copyright {  
+}
+
+@media (max-width:480px){
+
+.logo {
+	height: 100px;
+   width: 30%;
+}
+
+.header {
+    height: 80px;
+   background: url(../images/bg-head.jpg) no-repeat center center;
+}
+
+/* PRODUTOS, DADOS E PAGAMENTO*/
+#produtos{position:relative;}
+
+.destaque{
+    width:100%;
+    height: 70px;
+    position:absolute;
+    background: url(../images/destaque_maximo_m.png) no-repeat;
+}
+ .destaque h3{
+     font-size: 20px;    
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 500;
+    padding: 8px 0px 0px 15px;
+    color: #fff;
+}
+
+#produtos h2.info{
+	font-size: 13px;
+	position: relative;
+	top: 8px; 
+	padding: 0px 0 10px 130px;
+}
+
+#produtos, #dados, #pagamento{height:auto; overflow:hidden; padding-bottom:20px; margin-bottom:20px; border-radius:12px;}
+.fundo_h2{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8e8e8+0,e8e8e8+17,ffffff+17,ffffff+17,ffffff+21,ffffff+25,ffffff+50,ffffff+100 */
+background: #e8e8e8; }
+
+#produtos h2, #pagamento h2{display:block;margin:0 0 20px 0;padding:10px 25px;color:#333;text-shadow:2px 1px 1px #FFF;font-size:18pt;}
+#produtos .preco_promocional{font-size:14pt; color:#74a726;}
+#produtos form input[type="image"]{margin:2px 0;}
+#produtos span.nota_prod{display:block; text-align:center; padding-top:20px; color:#666;}
+
+.link:hover{cursor:pointer; text-decoration:underline;}
+
+div.recomendado{width: 80%; font-size:18px; padding-left:10px;}
+div.desconto{background:url(../images/bk_desconto_m.png) no-repeat; font-size:10px; width:65px; height: 70px; position:absolute; right: 10px; top:52px; text-align:center; z-index:2; color:#FFF; text-transform:uppercase; font-weight:bold; padding-top: 3px;}
+div.desconto strong{font-size:25px;}
+div.cont_direita{float:right;width:100%;position: relative;top: 0px;}
+div.cont_left{overflow:hidden; width:100%;}
+.cont_left img{padding-top: 40px; width: 90%; margin-left: 18px;}
+p.preco_detaque{
+    font-size: 44px;
+    color: #000;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 500;
+    padding:10px 0 0 15px;
+    margin:0;
+}
+p.preco_detaque span{
+    color: #0e9716
+}
+
+#produtos h4 {
+	font-size: 16px;
+	/* color: rgb(124, 21, 77); */
+	font-weight: 400;
+	/* font-style: italic; */
+	position: relative;
+	width: 180px;
+	margin: 0;
+	/* padding-left: 18px; */
+	background-color: #f5f5f5;
+	text-align: center;
+	left: 16px;
+	top: -4px;
+}
+
+p.preco_detaque strong{color:#0e9716;/* font-size:60px; */}
+p.preco_bottom{font-style:italic; padding-left:50px; color:#666;}
+p.preco_bottom span{text-decoration:line-through;}
+}

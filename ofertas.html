@@ -1,0 +1,513 @@
+
+	<!DOCTYPE html>
+<html lang="pt-br"><head>
+ <meta charset="utf-8">
+	<meta https-equiv="Content-Language" content="pt-br">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Colageno Hidrolisado">
+    <meta name="author" content="Nilson Jr">
+    <title>Activecell Colágeno</title>
+		
+			<!-- jquery 3.3.1 -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	
+	 <!-- Bootstrap --> 
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+		
+	<!-- css --> 
+  <link href="css/oferta.css" rel="stylesheet">
+	<link href="css/lobibox.min.css" rel="stylesheet" >
+  <link href="css/chat.css" rel="stylesheet" type="text/css">
+	
+
+<!-- Fontes -->
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+	<!-- favicons -->
+	<link rel="icon" type="image/png"  href="images/favicon-32x32.png">
+	<link rel="icon" type="image/png"  href="images/favicon-32x32.png">
+
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125794259-16"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-125794259-16');
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '268018727614095');
+  fbq('track', 'PageView');
+   fbq('trackCustom', 'ProdSache');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=268018727614095&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+	</head>	 
+		
+<body>	
+
+		      <!--loader 
+		      <div id="loader" class="loader" [hidden]="!loading"></div>-->
+          
+	
+				     <div class="header">
+		 <div class="container">
+		 <div class="row">
+			 <img class="logo" src="images/bandeira.png" alt="Logo Activecell colageno" />
+			 
+			
+	</div>
+	   </div></div>
+
+			 	
+		<div class="container">		
+	
+  <div id="telefone" class="clearfix" style="margin:20px 0;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td height="40" align="center" valign="middle"><p class="esquerda"><strong><img src="images/1_c.png" width="25" height="25" alt="">&nbsp;ESCOLHA A MELHOR OFERTA PARA VOCÊ!</strong></p></td>
+        <td width="257" align="center" valign="middle"><span class="clearfix" style="margin:20px 0;"><img class="direita" src="images/site_seguro.jpg" width="350" height="35" alt="Compra segura"></span></td>
+        <td width="120" align="center" valign="middle">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="40" colspan="2" align="left" valign="middle"><div class="garantia2">  <hr> 
+        <img src="images/garantia2.jpg">
+   
+  </div> </td>
+        <td align="center" valign="middle"><span class="clearfix" style="margin:20px 0;"><img src="images/12x.png" width="106" height="106" class="selo_3"></span></td>
+      </tr>
+    </tbody></table>
+  </div> 
+
+
+<!-- shop.offers[3] 
+<div id="produtos" class="clearfix fundo_h2"> <a class="destaque"><h3>{{shop.offers[3]?.freeField1}}</h3></a>
+
+   <h2 class="info">{{shop.offers[3]?.kit.name}}</h2>
+    
+    <div class="desconto">desconto<br>
+      <strong>{{shop.offers[3]?.freeField2}}</strong></div>
+    
+    <div class="cont_left">
+      <div class="recomendado">{{shop.offers[3]?.option}}</div>
+
+       <img [src]="shop.offers[3]?.kit.photoUrl" alt="" border="0"></div>
+
+    <div class="cont_direita">
+    <p class="preco_detaque"><span>{{shop.offers[3]?.installment}}x</span> {{shop.offers[3]?.price | currency:'BRL':true}}</p>
+      <form (click)="goToCart(shop.offers[3])">
+
+       <h4>Apenas R${{shop.offers[3]?.freeField3}} por dia!</h4>
+
+       <button>  <img width="100%" src="images/bt_adicionar.jpg" alt=""></button>
+      
+        <p class="preco_bottom"> De:<span> R${{shop.offers[3]?.freeField4}}</span> &nbsp;&nbsp;&nbsp;&nbsp; por: {{shop.offers[3]?.total | currency:'BRL':true}}</p>
+      </form>
+    </div>
+</div>
+-->
+
+<!-- shop.offers[2] -->
+<div id="produtos" class="clearfix fundo_h2"> <a class="destaque"><h3>{{shop.offers[2]?.freeField1}}</h3></a>
+
+   <h2 class="info">{{shop.offers[2]?.kit.name}}</h2>
+    
+    <div class="desconto">desconto<br>
+      <strong>{{shop.offers[2]?.freeField2}}</strong></div>
+    
+    <div class="cont_left">
+      <div class="recomendado">{{shop.offers[2]?.option}}</div>
+       <img [src]="shop.offers[2]?.kit.photoUrl" alt="" border="0"></div>
+
+    <div class="cont_direita">
+    <p class="preco_detaque"><span>{{shop.offers[2]?.installment}}x</span> {{shop.offers[2]?.price | currency:'BRL':true}}</p>
+      <form (click)="goToCart(shop.offers[2])" onClick="fbq('trackCustom', 'SacheOferta6');">
+
+       <h4>Apenas R${{shop.offers[2]?.freeField3}} por dia!</h4>
+
+       <button>  <img width="100%" src="images/bt_adicionar.jpg" alt=""></button>
+      
+        <p class="preco_bottom"> De:<span> R${{shop.offers[2]?.freeField4}}</span> &nbsp;&nbsp;&nbsp;&nbsp; por: {{shop.offers[2]?.total | currency:'BRL':true}}</p>
+      </form>
+    </div>
+</div>
+<!-- shop.offers[2] end -->
+
+
+<!-- shop.offers[1] -->
+<div id="produtos" class="clearfix fundo_h2"> <a class="destaque"><h3>{{shop.offers[1]?.freeField1}}</h3></a>
+
+   <h2 class="info">{{shop.offers[1]?.kit.name}}</h2>
+    
+    <div class="desconto">desconto<br>
+      <strong>{{shop.offers[1]?.freeField2}}</strong></div>
+
+    
+    <div class="cont_left">
+      <div class="recomendado">{{shop.offers[1]?.option}}</div>
+       <img [src]="shop.offers[1]?.kit.photoUrl" alt="" border="0"></div>
+
+    <div class="cont_direita">
+    <p class="preco_detaque"><span>{{shop.offers[1]?.installment}}x</span> {{shop.offers[1]?.price | currency:'BRL':true}}</p>
+      <form (click)="goToCart(shop.offers[1])" onClick="fbq('trackCustom', 'SacheOferta3');">
+
+       <h4>Apenas R${{shop.offers[1]?.freeField3}} por dia!</h4>
+
+       <button>  <img width="100%" src="images/bt_adicionar.jpg" alt=""></button>
+      
+        <p class="preco_bottom"> De:<span> R${{shop.offers[1]?.freeField4}}</span> &nbsp;&nbsp;&nbsp;&nbsp; por: {{shop.offers[1]?.total | currency:'BRL':true}}</p>
+      </form>
+    </div>
+</div>
+<!-- shop.offers[1] end -->
+
+<!-- shop.offers[0] -->
+<div id="produtos" class="clearfix fundo_h2"> <a class="destaque"><h3>{{shop.offers[0]?.freeField1}}</h3></a>
+
+   <h2 class="info">{{shop.offers[0]?.kit.name}}</h2>
+    
+    <div class="desconto">desconto<br>
+      <strong>{{shop.offers[0]?.freeField2}}</strong></div>
+
+    
+    <div class="cont_left">
+      <div class="recomendado">{{shop.offers[0]?.option}}</div>
+       <img [src]="shop.offers[0]?.kit.photoUrl" alt="" border="0"></div>
+
+    <div class="cont_direita">
+    <p class="preco_detaque"><span>{{shop.offers[0]?.installment}}x</span> {{shop.offers[0]?.price | currency:'BRL':true}}</p>
+      <form (click)="goToCart(shop.offers[0])" onClick="fbq('trackCustom', 'SacheOferta1');">
+
+       <h4>Apenas R${{shop.offers[0]?.freeField3}} por dia!</h4>
+
+       <button>  <img width="100%" src="images/bt_adicionar.jpg" alt=""></button>
+      
+        <p class="preco_bottom"> De:<span> R${{shop.offers[0]?.freeField4}}</span> &nbsp;&nbsp;&nbsp;&nbsp; por: {{shop.offers[0]?.total | currency:'BRL':true}}</p>
+      </form>
+    </div>
+</div>
+<!-- shop.offers[0] end -->
+
+
+
+
+</div>
+
+ <!-- CHAT ONLINE BY NILSON JR-->
+<script>
+  $(document).ready(function() {
+    var elemento = document.querySelector('.fab');
+    window = setTimeout(function () {
+        elemento.style.display = 'block';
+    }, 1000);
+
+  });
+</script>
+    
+<script type="text/javascript">
+ $(document).ready(function() {
+   function toggleFAB(fab){
+  if(document.querySelector(fab).classList.contains('show')){
+    document.querySelector(fab).classList.remove('show');
+  }else{
+    document.querySelector(fab).classList.add('show');
+  }
+}
+
+document.querySelector('.fab .main').addEventListener('click', function(){
+  toggleFAB('.fab');
+});
+
+document.querySelectorAll('.fab ul li button').forEach((item)=>{
+  item.addEventListener('click', function(){
+    toggleFAB('.fab');
+  });
+});
+ });
+</script>
+
+<div class="fab" style="display:none;">
+  <button class="main">  
+  </button>
+  <ul> 
+    <!--
+ <li>
+      <label><div class="opcao1">Email</div></label>
+      <button onclick="javascript:void(window.open('mailto:contato@marketshop.com.br'))">   
+       <img  class="img-fluid" src="images/emailico.png"  alt=""/>
+      </button>
+    </li>
+    <li>
+      <label><div class="opcao2">Chat online</div></label>
+      <button onclick="javascript:void(window.open('https://sac-marketshop.ascbrazil.com.br/Chat/id/Relacionamento','','width=320,height=400,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))"> 
+        <img class="img-fluid" src="images/chat.png" alt="">
+    </button></li>
+<li>
+      <label><div class="opcao0">Telegram</div></label>
+      <button onclick="javascript:void(window.open('https://telegram.me/Awplus_bot'))">   
+       <img  class="img-fluid" src="images/Telegram-icon.png"  alt=""/>
+      </button>
+    </li>
+    <li>
+      <label><div class="opcao4">Messenger</div></label>
+      <button onclick="javascript:void(window.open('https://m.me/1487590491376319'))">   
+       <img class="img-fluid" src="images/messenger_ico.png" alt="">
+      </button>
+    </li>-->
+   
+    <li>
+      <label><div class="opcao3">Whatsapp</div></label>
+      <button onclick="javascript:void(window.open('https://api.whatsapp.com/send?phone=5511995043108&text=Estou%20nas%20Ofertas%20do%20Porta%203%20do%20ACTIVECELL%20COL%C3%81GENO%20e%20estou%20com%20d%C3%BAvidas%20!','','width=320,height=400,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))">
+      <img class="img-fluid" src="images/whatsapp_icon1.png" alt="">
+      </button>
+    </li>
+  </ul>
+</div>
+
+<!--FIM CHAT ONLINE BY NILSON JR-->
+
+
+
+<footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="images/logo.png" height="60" alt="" />
+              <br>
+              <br>
+              <p>O ActiveCell® Colágeno Hidrolisado Solúvel possui em sua fórmula uma combinação harmonizada entre peptídeos bioativos de
+                colágeno e um mix de vitaminas e minerais antioxidantes que combatem os radicais livres e atuam na síntese e na preservação
+                das novas fibras de colágeno e elastina.</p>
+            </div>
+
+          
+       <div class="col-sm-4" style="text-align:center; margin-top: 30px;">
+        <br>
+    <strong>Central de Atendimento:</strong><br>
+        (11) 3195-4550
+        </h4>
+     <br> <br>
+<a href="https://politica.activecellcolageno.com.br/" style="color: #000; text-decoration: underline;"><h5>Veja nossa política</h5></a>
+
+            </div>
+
+
+
+            <div class="col-xs-3 col-sm-3 col-xl-4" style="text-align: center">
+           
+              <br><br><br><br>
+              <span>Siga-nos nas redes sociais:</span>
+              <a href="https://www.instagram.com/activecell_oficial/" target="_blank"><img src="images/insta.png" width="33" height="33" alt=""/></a>
+              <a href="https://www.facebook.com/ActiveCellColageno/" target="_blank"><img src="images/face.png" width="35" height="35" alt=""/></a>
+              <a href="https://www.youtube.com/channel/UC5MzYI7gvx31s-egM9-qDew" target="_blank"><img src="images/youtube.png" width="35" height="35" alt=""/></a>
+            </div>
+          </div>
+          <hr style="height:3px; margin-top: 0px; margin-bottom: 0px;" />
+          <div class="row">
+            <div class="col-sm-4">
+              <p>Copyright &copy; ActiveCell 2020. Todos os Direitos Reservados</p>
+            </div>
+            <div class="col-sm-4" style="text-align: center"></div>
+            <div class="col-sm-4" style="text-align: center">
+              
+            </div>
+          </div>
+        </div>
+      </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">ATENÇÃO</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <h2 style="color: #ff0000;"><strong> Por favor verificar as informações a seguir:<br>
+       {{errorMessage}}</strong></h2>
+      </div>
+
+      <div class="modal-footer">
+      	
+      	<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+ <script type="text/javascript">
+    // script que abre o modal 
+
+ 	marketshop.setRejectedPaymentEvent(function () {
+    $('#exampleModalCenter').modal('show');
+});
+
+</script>
+
+		  <!-- js plugin lobibox alertas aleatorias-->
+      <script src="js/lobibox.min.js"></script>
+      <script type="text/javascript">
+        iconSource: 'fontAwesome'
+
+            var frases_ativas = 8;
+
+            var frases = [];
+
+            frase = {
+
+                                'style' : 'success',
+
+                                'icon' : 'fa fa-flag-checkered',
+
+                                'msg' : '<b>9</b> Pessoas estão comprando <b>ActiveCell®</b> nesse momento'
+
+                              };
+
+                       frases.push(frase);
+frase = {
+
+                                'style' : 'info',
+
+                                'icon' : 'fa fa-flag-checkered',
+
+                                'msg' : '<b>317</b> Pessoas compraram <b>ActiveCell®</b> essa semana'
+
+                              };
+
+                       frases.push(frase);
+frase = {
+
+                                'style' : 'info',
+
+                                'icon' : 'fa fa-flag-checkered',
+
+                                'msg' : '<b>2</b> Pessoas compraram <b>ActiveCell®</b> nos últimos minutos'
+
+                              };
+
+                       frases.push(frase);
+frase = {
+
+                                'style' : 'info',
+
+                                'icon' : 'fa fa-flag-checkered',
+
+                                'msg' : '<b>23</b> Pessoas compraram <b>ActiveCell®</b> hoje'
+
+                              };
+
+                       frases.push(frase);
+frase = {
+
+                                'style' : 'info',
+
+                                'icon' : 'fa fa-flag-checkered',
+
+                                'msg' : '<b>Juliana</b> acabou de comprar 03 caixas de <b>ActiveCell®</b>'
+
+                              };
+
+                       frases.push(frase);
+frase = {
+
+                                'style' : 'success',
+
+                                'icon' : 'fa fa-check-circle',
+
+                                'msg' : '<b>Fernando</b> tive ótimos resultados com o <b>ActiveCell®</b>'
+
+                              };
+
+                       frases.push(frase);
+frase = {
+
+                                'style' : 'success',
+
+                                'icon' : 'fa fa-check-circle',
+
+                                'msg' : '<b>Alexandre: </b>Estou adorando o <b>ActiveCell®</b> já tive resultado desde primeira semana</b>'
+
+                              };
+
+                       frases.push(frase);
+frase = {
+
+                                'style' : 'success',
+
+                                'icon' : 'fa fa-check-circle',
+
+                                'msg' : '<b>Sônia: </b>Eu estou usando a menos de um mês e está me ajudando muito</b>'
+
+                              };
+
+                       frases.push(frase);
+
+            var frases_ = frases.slice(0);
+ 
+            setInterval(function(){
+
+              if(frases_.length == 0){
+                // frases_ = frases.slice(0);
+              }
+
+              id = Math.floor(Math.random()*frases_.length);
+
+              frase = frases_[id];
+
+              Lobibox.notify( 
+                frase.style,{
+                  size: 'mini',
+                  width: 400,
+                  messageHeight: 50,
+                  icon: frase.icon,
+                  delayIndicator: true,
+                  position: 'bottom right',
+                  msg: frase.msg,
+                  delay: 10000 
+                }
+              );
+
+              frases_.splice(id,1);
+
+            },18000);
+      </script>
+	
+		
+<!--scroll-->
+	
+<script>
+$(document).ready(function() {
+
+$('.clique').click(function() {
+$('html, body').animate({
+scrollTop: $('#alvo').offset().top
+}, 1000);
+});
+
+});
+</script>
+
+
+   </body>
+    </html>

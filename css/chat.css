@@ -1,0 +1,173 @@
+/* CSS CHAT Copyright 2020  Nilson Jr*/
+.fab{
+  position: fixed;
+ bottom: 80px;
+  right:5px;
+  z-index: 1000;
+}
+
+.fab button{
+  cursor: pointer;
+  width: 65px;
+  height: 65px;
+  border-radius: 60px;
+  border: none;
+  box-shadow: 0px 4px 10px 2px rgba(0,0,0,.4);
+  -webkit-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  transition: .2s ease-out;
+
+}
+
+.fab button:focus{
+  outline: none;
+}
+
+.fab button.main{
+  position: absolute;
+  width:65px;
+  height: 65px;  
+   background: url(../images/callcenter_min.png) center center no-repeat;
+  right: 0;
+  bottom: 0; 
+  z-index: 20;  
+}
+
+
+.fab button.main:before{
+  margin-left: -82px;
+  content: '⏚';
+  font-size: 20px;
+}
+
+.fab ul{
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  padding:0;
+  padding-right:5px;
+  margin:0;
+  list-style:none;
+  z-index:10;  
+  -webkit-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+.fab ul li{
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  margin-bottom: -10%;
+  opacity: 0;  
+  -webkit-transition: .3s ease-out;
+  -moz-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.opcao0{
+  padding:15px;
+  background-color: #32AFED;
+  box-shadow: 0 15px 3px rgba(0,0,0,.2);
+  border-radius:10px;  
+  font-size: 16px;
+  color: white;
+  pointer-events: none;
+}
+
+.opcao1{
+  padding:15px;
+  background-color: #D21B12;
+  box-shadow: 0 15px 3px rgba(0,0,0,.2);
+  border-radius:10px;  
+  font-size: 16px;
+  color: white;
+  pointer-events: none;
+}
+
+.opcao2{
+  padding: 15px;
+  background-color: #FF7F00;
+  box-shadow: 0 15px 3px rgba(0,0,0,.2);
+  border-radius:10px;  
+  font-size: 16px;
+  color: white;
+  pointer-events: none;
+}
+
+.opcao3{
+  padding: 15px;
+  background-color: #00e676;
+  box-shadow: 0 15px 3px rgba(0,0,0,.2);
+  border-radius:10px;  
+  font-size: 16px;
+  color: white;
+  pointer-events: none;
+}
+
+.opcao4{
+  padding: 15px;
+  background-color: #0085FF;
+  box-shadow: 0 15px 3px rgba(0,0,0,.2);
+  border-radius:10px;  
+  font-size: 16px;
+  color: white;
+  pointer-events: none;
+}
+
+.fab ul li label{ 
+  display: block;
+ height: 20px;
+ width: 90px;
+  opacity:0;  
+  -webkit-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+
+.fab.show button{
+  cursor: pointer;
+  width: 65px;
+  height: 65px;
+  border-radius: 40px;
+  border: none;
+  box-shadow: 0px 4px 10px 2px rgba(0,0,0,.4);
+  -webkit-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+
+.fab.show button.main,
+.fab.show button.main{
+  outline: none;
+    margin-right:  5px;
+      width: 120px;
+  height: 65px;
+  background: url(../images/callcenter.gif) center center no-repeat;
+  box-shadow: 0 10px 52px rgba(0,0,0,.9);
+ }
+ 
+.fab.show button.main:before,
+.fab.show button.main:before{
+  content: 'x';
+  margin-left:  -140px;
+}
+
+.fab.show button.main + ul,
+.fab.show button.main + ul{
+  bottom: 70px;
+}
+
+.fab.show button.main + ul li,
+.fab.show button.main + ul li{
+  margin-bottom: 10px;
+  opacity: 1;
+}
+
+.fab.show button.main + ul li:hover label,
+.fab.show button.main + ul li:hover label{
+  opacity: 1;
+}
+/* fim CSS CHAT Copyright 2020  Nilson Jr*/

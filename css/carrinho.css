@@ -1,0 +1,692 @@
+
+/* Bootstrap css - Landing Page 
+ * Copyright 2017  Nilson Jr
+ */
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+	background-color: #fff;
+}
+
+/*Fontes do layout*/
+body, p {font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"}
+
+h1,h2{font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"}
+
+h1{font-size: 42px; font-family:  'Oswald', sans-serif; font-weight: bold;}
+
+h2{font-size: 20px; font-family:  'Oswald', sans-serif; font-weight: bold;}
+
+h3{font-size: 16px; font-family:  'Oswald', sans-serif; font-weight: bold}
+
+h4{font-size: 16px;}
+
+h5{font-size: 14px;}
+
+p {font-size: 12px;}
+
+
+#timer2 {
+    background: url(../images/timer2.jpg) no-repeat top left;
+    width: 320px;
+    height: 80px;
+    color: #FFF;
+    font-weight: 500;
+    letter-spacing: 33px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ padding-left: 10px;
+}
+
+#cronometro {
+    font-size: 41pt;
+  }
+
+.offermob{
+		display: none;
+	}
+
+.lobibox-notify-success {
+    border-color: #24a370;
+    background-color: #000;
+    color: #FFF;
+}
+
+.header {
+    height: 150px;
+   background: url(../images/bg-head.jpg) no-repeat center center;
+}
+
+#header .logo {
+    display: block;
+    float: left;
+}
+
+
+.selprodu{
+	
+	height: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 10px;    
+    background-color: #e0e0e0;
+}
+
+
+select:required:invalid {
+  color: gray;
+}
+option[value=""][disabled] {
+  display: none;
+}
+
+
+select{	
+	margin: 5px;
+    border-radius: 5px;    
+    background: #fff; 
+	height: 40px;
+}
+
+
+/*Formulario Custumizado*/
+.topo{ 
+	height: 45px;
+	background: #EA4BA0;
+	
+}
+
+.topo1{ 
+	background: url(../images/banner_check.jpg) no-repeat center center;
+	height: 433px;
+}
+
+
+.lateral{
+	margin-top: 95px;
+	width:340px;
+	height:960px;
+}
+
+.cv{
+	margin-left: 300px;	
+}
+
+.seg{
+	margin-top: 10px;
+	margin-left: 600px;		
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../images/load.gif) 50% 50% no-repeat rgba(10,23,55,0.5);
+}
+
+
+.par{
+margin-left: 13px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif" ;
+	border-radius: 5px;
+	height: 40px;
+	
+}
+
+.bgt{	
+	 background: url(../images/bg.jpg) no-repeat center center;
+	 height:300px;
+}
+
+.formslc{	
+	background: url(../images/form.jpg) no-repeat center center;
+	border-radius: 10px;
+}
+
+.campocel{
+	float: left;
+	padding: 0px 2px 0px 0px;
+	width: 50%;
+	padding-bottom: 20px;
+}
+
+.campotel{	
+	float: left;
+	padding: 0px 2px 20px 2px;
+	width: 50%;
+	padding-bottom: 20px;
+}
+
+/* inicio classes de validação */
+.erro{	
+	
+	margin-top: -6px;
+	margin-left: 5px;
+	border-radius: 3px;
+	padding: 3px 3px 3px 5px;
+	width: 210px;
+	font-family:arial, helvetica, sans-serif;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	font-size: 12px;
+	color:white;	
+	background:#d71212;	
+}
+
+.erro2{	
+	margin-top: -6px;
+	margin-left: 5px;
+	border-radius: 3px;
+	padding: 3px 3px 3px 5px;
+	width: 210px;
+	font-family:arial, helvetica, sans-serif;	
+	font-size: 12px;
+	color:white;		
+	background:#d71212;	
+}
+
+.cardbg{ 	
+	
+	background: url(../images/incc.jpg)no-repeat right;
+}
+
+.mastercard{
+	
+	background: url(../images/inccm.jpg)no-repeat right;
+}
+
+.visa{
+	
+	background: url(../images/inccv.jpg)no-repeat right;
+	
+}
+.dinersclub{
+	background: url(../images/inccd.jpg)no-repeat right;
+	
+}
+
+.jcb{
+	background: url(../images/inccj.jpg)no-repeat right;
+}
+
+.amex{
+
+	background: url(../images/incca.jpg)no-repeat right;
+}
+
+.maestro{
+	
+	background: url(../images/inccm.jpg)no-repeat right;
+}
+
+/* 
+input.ng-invalid.ng-touched + .erro2{	
+	display : block; 
+}*/
+
+input{ 	
+	margin: 5px;
+    border-radius: 10px;    
+    background: #fff; 
+	height: 40px;	    
+}
+select{			
+	margin: 5px;
+    border-radius: 5px;    
+    background: #f8f8f8; 
+	height: 50px;	    
+
+}
+
+input:hover, textarea:hover{ 
+         background:  1px solid #E9E9E9;
+}
+
+input.ng-pristine {
+           border:  1px solid #BEBEBE;
+        }
+
+input.ng-invalid.ng-touched {
+           border:  1px solid #d71212;
+	       color: #d71212;
+        }
+
+input.ng-valid.ng-touched {
+            border:  1px solid #28921f;
+	        color: #28921f;
+        }
+
+/* fim classes de validação */
+
+.card-block{	
+	height: 80px;
+	}
+
+
+.oferta:hover{
+		
+	opacity: 0.8;
+}
+
+.clique{
+	
+	padding: 3px;
+}
+
+.clique:hover{
+	
+	opacity: 0.8;
+}
+
+.clique:active{
+
+opacity: 0.8;	}
+
+.formcont{
+
+    margin-top: 0px;
+}
+
+.botao{
+width: 100%;
+height: 50px;
+border:1px solid #34740e;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 6px;
+font-size:16px;
+font-family:arial, helvetica, sans-serif;
+padding: 10px 10px 10px 10px;
+text-decoration:none;
+text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+font-weight:bold;
+color: #FFFFFF;
+ background-color: #4ba614; background-image: -webkit-gradient(linear, left top, left bottom, from(#4ba614), to(#008c00));
+ background-image: -webkit-linear-gradient(top, #4ba614, #008c00);
+ background-image: -moz-linear-gradient(top, #4ba614, #008c00);
+ background-image: -ms-linear-gradient(top, #4ba614, #008c00);
+ background-image: -o-linear-gradient(top, #4ba614, #008c00);
+ background-image: linear-gradient(to bottom, #4ba614, #008c00);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#4ba614, endColorstr=#008c00);
+}
+
+.botao:hover{
+ border:1px solid #224b09;
+ background-color: #36780f; background-image: -webkit-gradient(linear, left top, left bottom, from(#36780f), to(#005900));
+ background-image: -webkit-linear-gradient(top, #36780f, #005900);
+ background-image: -moz-linear-gradient(top, #36780f, #005900);
+ background-image: -ms-linear-gradient(top, #36780f, #005900);
+ background-image: -o-linear-gradient(top, #36780f, #005900);
+ background-image: linear-gradient(to bottom, #36780f, #005900);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#36780f, endColorstr=#005900);
+}
+
+.botao:active{
+background-color:#77B516;
+font-size: 18px;
+color: #000;
+}
+
+.botaop{
+width: 75%;
+height: 75px;
+border:1px solid #34740e;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 6px;
+font-size:20px;
+font-family:arial, helvetica, sans-serif;
+padding: 10px 10px 10px 10px;
+text-decoration:none;
+text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+font-weight:bold;
+color: #FFFFFF;
+ background-color: #4ba614; background-image: -webkit-gradient(linear, left top, left bottom, from(#4ba614), to(#008c00));
+ background-image: -webkit-linear-gradient(top, #4ba614, #008c00);
+ background-image: -moz-linear-gradient(top, #4ba614, #008c00);
+ background-image: -ms-linear-gradient(top, #4ba614, #008c00);
+ background-image: -o-linear-gradient(top, #4ba614, #008c00);
+ background-image: linear-gradient(to bottom, #4ba614, #008c00);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#4ba614, endColorstr=#008c00);
+}
+
+.botaop:hover{
+ border:1px solid #224b09;
+ background-color: #36780f; background-image: -webkit-gradient(linear, left top, left bottom, from(#36780f), to(#005900));
+ background-image: -webkit-linear-gradient(top, #36780f, #005900);
+ background-image: -moz-linear-gradient(top, #36780f, #005900);
+ background-image: -ms-linear-gradient(top, #36780f, #005900);
+ background-image: -o-linear-gradient(top, #36780f, #005900);
+ background-image: linear-gradient(to bottom, #36780f, #005900);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#36780f, endColorstr=#005900);
+}
+
+.botao3{
+width: 80%;
+height: 40px;
+border:1px solid #29bbff;
+-moz-border-radius: 3px;
+border-radius: 6px;
+font-size:14px;
+font-family:arial, helvetica, sans-serif;
+padding: 5px 10px 10px 10px;
+text-decoration:none;
+text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+font-weight:bold;
+box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+}
+
+.botao3:hover{
+ background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+
+.campos-formulario{
+padding: 0px 10px 0px 10px;
+}
+/*Fim Formulario Custumizado*/
+
+
+/*texto de obrigado*/
+.obrigado {
+	margin-top: 50px;
+	font-size: 20px;
+	font-family: "cabin condensed";
+	padding: 60px 10px 10px 10px;
+	background-color: #603b94;
+	border-radius: 20px;
+	box-shadow: -8px 8px 15px 0px;
+	height: 230px;
+	}
+
+/*Header*/
+.intro-header {
+  text-align: center;  
+  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-color: #010922;
+  height: 706px;
+  
+}
+
+/*Header pagina curta*/
+.intro-header3 {	
+  text-align: center; 
+  background: url(../img/intro-bg-c.png) no-repeat center center;
+  height: 650px;
+  background-size: cover;
+  background-color: #f8f8f8;
+}
+
+/*Header pagina de obrigado*/
+.intro-header1 {
+	
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/intro-bg1.jpg) no-repeat center center;
+  height: 530px;
+  background-size: cover;
+}
+
+/*Titulo head*/
+.intro-message {
+  padding: 20px 0;
+  text-align: center;
+  text-shadow:  3px 5px 8px #fff;
+  font-size: 71px;
+  color: #603b94; 
+}
+
+/*Titulo head pagina de obrigado*/
+.intro-message1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 56px;
+  color: #603b94; 
+}
+
+/*Titulo head*/
+.intro-message3 {
+  margin-top: 20px;
+  float: inherit;
+  text-shadow:  3px 5px 8px #fff;
+  font-size: 45px;
+  color: #603b94; 	
+}
+
+.img-esquerda{
+	padding: 0px 0px 0px 358px;
+    margin-top: 35px;	
+	}
+
+.img-vita{
+    width: 420px;	
+	}
+
+.texto-esquerda{
+	
+	margin-top: 45px;
+
+}
+
+.topico{
+	padding-left: 30px;
+	margin-top: -20px;
+}
+
+/*frame 1 obrigado*/
+.content-section-b {
+  margin-top: 5px; 
+ }
+/*frame 1 espaçamento obrigado*/
+.section-heading {
+  margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+/*barra frame 1 obrigado*/
+.section-heading-spacer-b {
+  float: left;
+  width: 150px;
+  border-top: 3px solid #e08395;
+}
+
+/*footer*/
+footer {
+	padding: 60px;
+	height: 300px;
+	background:#D3D3D3;
+}
+
+p.copyright {  
+}
+
+/*mobile*/
+@media (max-width:1080px){
+	
+.cv{
+	margin-top: 0px;
+	margin-left: 255px;	
+}
+
+.bgt{	
+	 background: url(../images/bg_cm1.jpg) no-repeat center center;
+	height:300px;
+}
+	
+.seg{
+	margin-top: 10px;
+	margin-left: 400px;
+}	
+}
+
+@media (max-width:830px){
+	
+	.lateral{	
+		display: none;	
+}
+	
+	.cv{
+	margin-top: 0px;
+	margin-left: 195px;	
+}
+	
+	.bgt{
+	
+	 background: url(../images/bg_cm2.jpg) no-repeat center center;
+	height:300px;
+}
+	
+	.seg{
+	margin-top: 10px;
+	margin-left: 200px;
+}
+	
+footer {
+	padding: 60px;
+	height: 500px;
+	background:#D3D3D3;
+}
+}
+
+@media (max-width:480px){
+
+.botao3{
+width: 100%;
+
+}
+
+.logo {
+	height: 100px;
+   width: 30%;
+}
+
+.header {
+    height: 80px;
+   background: url(../images/bg-head.jpg) no-repeat center center;
+}
+	.offerdesk{
+		display: none;
+	}
+	
+
+	.offermob{
+		display:block;
+	}
+	
+
+.load{
+ 
+	margin-top: 500px;	
+	
+}
+.load2{
+ 
+	margin-top: 1350px;	
+	
+}
+
+
+.load3{
+ 
+	margin-top: 980px;	
+	
+}
+
+
+
+footer {
+	padding: 40px 0px 0px 0px;	
+	height: 600px;
+	background:#D3D3D3;
+}
+	
+.carregando{
+   width: 100%;
+   height: 450%;
+   background-color: white;
+   position: absolute;    
+   opacity: 0.8;
+   z-index: 1000;
+}	
+	
+	.cv{	
+	margin-top: -50px;
+	margin-left: 200px;	
+}
+	
+	.bgt{
+	
+	background: url(../images/bg_cm3.jpg) no-repeat center center;
+	height:300px;
+}
+	.seg{
+	margin-top: 10px;
+	margin-left: 130px;
+}
+	
+	
+.cardbg{ 	
+	
+	background: url(../images/incc_m.jpg)no-repeat right;
+}
+
+.mastercard{
+	
+	background: url(../images/inccmm.jpg)no-repeat right;
+}
+
+.visa{
+	
+	background: url(../images/inccvm.jpg)no-repeat right;
+	
+}
+.dinersclub{
+	background: url(../images/inccdm.jpg)no-repeat right;
+	
+}
+
+.jcb{
+	background: url(../images/inccjm.jpg)no-repeat right;
+}
+
+.amex{
+
+	background: url(../images/inccam.jpg)no-repeat right;
+}
+
+.maestro{
+	
+	background: url(../images/inccmm.jpg)no-repeat right;
+}	
+	
+	
+h1{font-size: 26px;}
+
+h2{font-size: 16px;}
+
+h3{font-size: 12px;}
+
+h4{font-size: 12px;}
+
+h5{font-size: 10px;}
+
+p {font-size: 10px;}	
+	
+	.topo1{ 
+	background: url(../images/banner_check_m_550.jpg) no-repeat center center;
+	height: 550px;
+}
+
+
+	.oferta:hover{
+		
+	opacity: 0.9;
+}
+	
+}

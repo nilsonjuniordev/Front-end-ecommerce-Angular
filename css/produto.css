@@ -1,0 +1,143 @@
+/* Bootstrap css - Landing Page 
+ * Copyright 2017  Nilson Jr
+ */
+
+body, html {
+margin: 0;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Fontes do layout*/
+
+body, p { font-size: 14px;}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../images/load.gif) 50% 50% no-repeat rgba(10,23,55,0.5);
+}
+
+
+.bg1{	
+  width: 100%;
+  height: 100%;
+	background: #E04E66; 
+	cursor: pointer; 
+  text-align: center; 
+}
+
+.bg2{	
+  width: 100%;
+	height: 100%;
+	background: #00448D;
+	cursor: pointer;
+text-align: center;
+}
+
+.bg1:hover{	
+   opacity: 0.5;
+}
+
+.bg2:hover{	
+	opacity: 0.5;	
+}
+
+.cup{  
+text-align: center;
+padding: 30px;
+background: #f8f8f8;
+
+}
+
+.botao3{
+margin-bottom: 10px;
+  width: 80%;
+  height: 80px;
+  border-radius: 10px;
+background: #64bc53;
+color: #fff;
+}
+
+.botao3:hover{ 
+  opacity: 0.5; 
+}
+
+
+
+.botão{
+  margin-bottom: 10px;
+  width: 40%;
+  height: 80px;
+  border-radius: 8px;
+background: #64bc53;
+  padding: 10px 0;
+ font-size: 26px;
+ color: #fff;
+ font-weight: 700;
+ border: 0;
+}
+
+
+
+hr{
+  border-color:#8E8E8E;
+  box-sizing:border-box;
+  width:100%;  
+}
+
+.footer{
+	background-color: #ededed;
+}
+
+
+
+@media (max-width: 480px){
+	
+.bg1{		
+	background: #E04E66;
+	height: 100%;
+  text-align: center;
+	
+}
+
+.bg2{	
+	height: 100%;
+	background: #00448D;
+	 text-align: center;
+}
+
+	
+h1{font-family: font-size: 18px;}
+
+h2{font-family: font-size: 16px;}
+
+h3{font-family: font-size: 18px;}
+
+h4{font-family:font-size: 20px;}
+
+h5{font-family:  font-size: 14px;}
+
+body, p {font-family: font-size: 16px;}	
+	
+	
+
+.botão{  
+  margin-bottom: 10px;
+  width: 80%;
+  height: 80px;
+  border-radius: 8px;
+  border: 0;
+background: #64bc53;
+  padding: 20px 0;
+ font-size: 26px;
+ color: #fff;
+ font-weight: 700;
+}
+
+}
+
+

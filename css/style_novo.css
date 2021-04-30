@@ -1,0 +1,428 @@
+/* estilos css - Landing Page 
+ * Copyright 2020 Nilson Jr
+ */
+
+body, html {
+background-color: #E9329A;	
+margin: 0;
+font-family: sans-serif;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../images/load.gif) 50% 50% no-repeat rgba(10,23,55,0.5);
+}
+
+.telaflex_bg1{		
+background: url(../images/bg1.jpg) no-repeat top center ;	
+background-size: cover;
+}
+
+.telaflex_cont_head{
+padding: 0px 0px 0px 0px;
+width: 100%;
+height: auto;
+}
+
+.telaflex_cont_head img{
+	padding: 20px;
+   margin-top: 1%;
+   width: 60%;
+   height: auto;
+}
+
+.telaflex_cont_produ{
+padding: 0px 0px 0px 0px;
+width: 100%;
+height: auto;
+}
+
+.telaflex_cont_produ img{
+	padding: 20px;
+   margin-top: 26%;
+   width: 70%;
+   height: auto;
+}
+
+
+.telaflex_bg2{
+width: 100%;	
+height: auto;	
+background-color: #E9329A;	
+margin: 0 auto;
+}
+
+.telaflex_bg2 img{
+width: 25px;	
+height: 25px;
+}
+
+.telaflex_cont_texto{
+padding: 0px 0px 0px 0px;
+width: 100%;
+height: auto;
+
+}
+
+.telaflex_cont_texto h1{
+font-size: 3em;
+font-family: sans-serif;
+color: #fff;
+text-shadow: 8px 8px 0 #000000;
+}
+
+.telaflex_cont_texto h2{
+width: 90%;
+font-size: 1.5em;
+font-family: sans-serif;
+color: #fff;
+}
+
+.telaflex_cont_texto_check{
+
+width: 50%;
+height: auto;
+margin: 0 auto 0 auto;
+}
+
+.telaflex_cont_texto_1{
+height: auto;
+float: left;
+padding-bottom: 40px;
+}
+
+.telaflex_cont_texto_2{
+height: auto;
+float: right;
+padding-bottom: 40px;
+}
+
+.telaflex_cont_texto_check h3{
+font-size: 1.3em;
+font-family: sans-serif;
+color: #fff;
+font-weight: 600;
+}
+
+
+.telaflex_bg3{
+background-color: #E9329A;	
+width: 100%;
+height: auto;
+margin: 0 auto;
+}
+
+.telaflex_bg3_cont{
+	width: 30%;
+padding-bottom:  15px;
+margin: 0 auto 0 auto;
+display: flex;
+}
+
+.head_form{
+padding: 15px 0px 0px 0px;
+border-radius:35px 35px 0 0;
+background-color: #1f8ce5;
+height: 75px;
+width: 101%;
+color: #fff;
+text-shadow: 1px -1px 3px  #303030;
+font-size: 18px;
+font-family: sans-serif;
+margin-left: -4px;
+}
+
+.formp{
+
+padding: 10px 60px 20px 60px;
+}
+
+.formulario{	
+	width: 100%;
+	height: 100%;
+	background-color: #fff;	
+	border-radius:  35px 35px 35px 35px;
+	box-shadow: 1px 3px 0px  #000;
+}
+
+input[type=text]{ 	
+	width: 100%;
+border: 1px  #232323 medium;
+border-radius: 35px;  
+height: 45px;	
+background-color: #fff;
+margin: 0px 0px 10px 0px;
+}
+
+input[type=text]:hover, textarea:hover{ 
+background: #E9E9E9; 
+}
+
+.botao{
+    width: 100%;
+    height: 87px;		
+	background-color:#1f8ce5;
+	border-radius:35px;
+	border:1px solid #D0871B;	
+	cursor:pointer;
+	color:#fff;	
+	text-shadow: 1px -1px 3px #545454;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+.botao:hover {
+	opacity: 0.6;
+}
+
+.botao:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+footer{
+background: #fff;
+width: 100%;
+height: 150px;
+}
+
+footer h3{
+text-align: center;
+color: #000;
+font-size: 12px;
+}
+
+footer img{
+
+	width: 15%;
+	height: auto;
+}
+
+
+@media (max-width: 1045px){
+
+
+.telaflex_cont_texto h1{
+font-size: 3em;
+font-family: sans-serif;
+color: #fff;
+text-shadow: 8px 8px 0 #000000;
+}
+
+.telaflex_cont_texto h2{
+width: 85%;
+font-size: 1.5em;
+font-family: sans-serif;
+color: #fff;
+}
+
+.telaflex_cont_texto_check{
+width: 80%;
+height: auto;
+margin: 0 auto 0 auto;
+}
+.telaflex_cont_texto_check h3{
+font-size: 1.3em;
+font-family: sans-serif;
+color: #fff;
+font-weight: 600;
+}
+.telaflex_bg3_cont{
+	width: 40%;
+padding-bottom:  15px;
+margin: 0 auto 0 auto;
+display: flex;
+}
+
+.head_form{
+padding: 15px 0px 0px 0px;
+border-radius:35px 35px 0 0;
+background-color: #1f8ce5;
+height: 75px;
+width: 101%;
+color: #fff;
+text-shadow: 1px -1px 3px  #303030;
+font-size: 18px;
+font-family: sans-serif;
+margin-left: -4px;
+}
+
+.botao{
+    width: 100%;
+    height: 87px;		
+	background-color:#1f8ce5;
+	border-radius:35px;
+	border:1px solid #D0871B;	
+	cursor:pointer;
+	color:#fff;	
+	text-shadow: 1px -1px 3px #545454;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+}
+
+@media (max-width: 800px){
+
+.telaflex_cont_texto h1{
+font-size: 2.5em;
+font-family: sans-serif;
+color: #fff;
+text-shadow: 4px 4px 0 #000000;
+}
+
+.telaflex_cont_texto h2{
+width:95%;
+font-size: 1.5em;
+font-family: sans-serif;
+color: #fff;
+}
+
+.telaflex_cont_texto_check{
+width: 80%;
+height: auto;
+margin: 0 auto 0 auto;
+}
+.telaflex_cont_texto_check h3{
+font-size: 1.3em;
+font-family: sans-serif;
+color: #fff;
+font-weight: 600;
+}
+.telaflex_bg3_cont{
+	width: 50%;
+padding-bottom:  15px;
+margin: 0 auto 0 auto;
+display: flex;
+}
+
+.head_form{
+padding: 15px 0px 0px 0px;
+border-radius:35px 35px 0 0;
+background-color: #1f8ce5;
+height: 75px;
+width: 101%;
+color: #fff;
+text-shadow: 1px -1px 3px  #303030;
+font-size: 18px;
+font-family: sans-serif;
+margin-left: -4px;
+}
+
+.botao{
+    width: 100%;
+    height: 87px;		
+	background-color:#1f8ce5;
+	border-radius:35px;
+	border:1px solid #D0871B;	
+	cursor:pointer;
+	color:#fff;	
+	text-shadow: 1px -1px 3px #545454;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+}
+
+@media (max-width: 650px){
+
+
+.telaflex_cont_head img{
+	padding: 20px;
+   margin-top: -3%;
+   width: 80%;
+   height: auto;
+}
+
+.telaflex_cont_produ img{
+	padding: 5px;
+   margin-top: 18%;
+   width: 78%;
+   height: auto;
+}
+
+.telaflex_cont_texto h1{
+font-size: 1.5em;
+font-family: sans-serif;
+color: #fff;
+text-shadow: 4px 4px 0 #000000;
+}
+
+.telaflex_cont_texto h2{
+width:95%;
+font-size: 1.2em;
+font-family: sans-serif;
+color: #fff;
+   margin-top: -1%;
+}
+
+.telaflex_bg2 img{
+width: 10px;	
+height: 10px;
+}
+
+.telaflex_cont_texto_check{
+width: 99%;
+height: auto;
+margin: 0 auto 0 auto;
+}
+
+.telaflex_cont_texto_check h3{
+font-size: 0.8em;
+font-family: sans-serif;
+color: #fff;
+font-weight: 600;
+}
+
+.telaflex_bg3_cont{
+width: 85%;
+padding-bottom:  15px;
+margin: 0 auto 0 auto;
+display: flex;
+}
+
+.head_form{
+padding: 15px 0px 0px 0px;
+border-radius:35px 35px 0 0;
+background-color: #1f8ce5;
+height: 75px;
+width: 101%;
+color: #fff;
+text-shadow: 1px -1px 3px  #303030;
+font-size: 16px;
+font-family: sans-serif;
+margin-left: -4px;
+}
+
+.botao{
+    width: 100%;
+    height: 87px;		
+	background-color:#1f8ce5;
+	border-radius:35px;
+	border:1px solid #D0871B;	
+	cursor:pointer;
+	color:#fff;	
+	text-shadow: 1px -1px 3px #545454;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+footer img{
+
+	width: 35%;
+	height: auto;
+}
+
+
+.formp{
+
+padding: 10px 20px 20px 20px;
+}
+
+}
